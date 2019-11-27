@@ -49,7 +49,7 @@ nav ul li a{
 	transition: .3s;
 	color: #8a8a8a;
 	font-family: 'Nunito', sans-serif;
-	font-size: 1em;  
+	font-size: 1em;
 }
 
 header.black nav ul li a{
@@ -92,7 +92,7 @@ header nav ul li a:hover{
 	margin-top: 100px;
 }
 .Services{
-	width: 90%;
+	/*width: 90%;*/
 	margin: 0 auto;
 	margin-top: 10px;
 	margin-bottom: 60px;
@@ -114,9 +114,9 @@ header nav ul li a:hover{
 .Service{
 	width: 300px;
 	height: 300px;
-	margin-left: 20px;
+	/*margin-left: 20px;
 	margin-right: 20px;
-	margin-top: 30px;
+	margin-top: 30px;*/
 	border-radius: 5px;
 }
 .Service:hover{

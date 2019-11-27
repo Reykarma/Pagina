@@ -3,10 +3,12 @@
 
 			{%block cuerpo %}
 			<section class="banner"></section>
-			<section class="Services">
+			<section class="grid-container Services">
+
 				<div class="Title-section">
 					<span><h2 id="NuestrosServicios">Nuestros servicios</h2></span>
 				</div>
+				<div class="grid-x align-center">
 				<div class="Service">
 					<div class="image-service">
 						<img src="{{ url_for('static', filename='imagenes/programacion.png') }}" alt="">
@@ -73,6 +75,7 @@
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					</div>
 				</div>
+			</div>
 			</section>
 			<section class="contenedor-nosotros">
 				<div class="Title-section">
@@ -109,7 +112,7 @@
 				</div>
 				<div class="container-text-portfolio">
 						<p class="title-portfolio">Desarrollamos soluciones a tu medida</p>
-						<p class="text-portfolio">Hacemos realidad esa idea que tienes, llevamos a cabo tu proyecto.</p> 
+						<p class="text-portfolio">Hacemos realidad esa idea que tienes, llevamos a cabo tu proyecto.</p>
 				</div>
 			</section>
 			{%endblock%}

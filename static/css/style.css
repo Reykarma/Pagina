@@ -16,14 +16,15 @@ header {
 	left: 0;
 	width: 100%;
 	height: 100px;
-	padding: 0 50px;
+	padding: 0 35px;
 	transition: .3s;
 	color: white;
-	/* background: rgb(0,0,0,0.8); */
 	z-index: 100;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	background-color:#007bb6;
+	font-size: 1.09em;
 }
 
 header .logo{
@@ -31,8 +32,8 @@ header .logo{
 	float: left;
 	font-size: 24px;
 	transition: .3s;
-    font-family: 'Nunito', sans-serif;
-	color: #1B9CFC;
+  font-family: 'Nunito', sans-serif;
+	color: #bb6500;
 }
 
 nav ul{
@@ -43,11 +44,10 @@ nav ul li{
 	list-style: none;
 }
 nav ul li a{
-	color: #151515;
 	padding: 12px 30px;
 	text-decoration: none;
 	transition: .3s;
-	color: #8a8a8a;
+	color: white;
 	font-family: 'Nunito', sans-serif;
 	font-size: 1em;
 }
@@ -86,10 +86,31 @@ header nav ul li a:hover{
 .banner{
 	width: 100%;
 	height:85vh;
-	background-image: url("../imagenes/banner.png");
+	background: linear-gradient(#007bb6 10%, white 100%);
 	background-size: cover;
 	background-position: center;
 	margin-top: 100px;
+	margin-bottom: 40px;
+}
+.image-banner{
+	height: 420px;
+	float: right;
+}
+.text-banner{
+	float: left;
+	width: 45%;
+	margin-top: 60px;
+	margin-left: 80px;
+	height: 350px;
+	text-align: justify;
+	font-size: 1.2em;
+	color: white;
+	font-weight: bold;
+}
+.text-banner h2{
+	margin-top: 10px;
+	font-size: 2em;
+	color: white;
 }
 .Services{
 	/*width: 90%;*/

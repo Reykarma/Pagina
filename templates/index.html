@@ -2,9 +2,14 @@
 			{% extends 'plantillas/cuerpo.html'%}
 
 			{%block cuerpo %}
-			<section class="banner"></section>
+			<section class="banner">
+				<div class="text-banner">
+					<h2>Soluciones tecnologicas</h2>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+				</div>
+				<img class="image-banner" src="{{ url_for('static', filename='imagenes/pc-banner.png') }}">
+			</section>
 			<section class="grid-container Services">
-
 				<div class="Title-section">
 					<span><h2 id="NuestrosServicios">Nuestros servicios</h2></span>
 				</div>

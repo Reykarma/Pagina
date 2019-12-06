@@ -2,19 +2,29 @@
 			{% extends 'plantillas/cuerpo.html'%}
 
 			{%block cuerpo %}
-			<section class="banner">
-				<div class="text-banner">
-					<h2>Soluciones tecnologicas</h2>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+			<section class="container-banner">
+				<div class="banner">
+					<div class="grid-x align-center">
+						<div class="cell small-6">
+							<div class="text-banner">
+								<span>
+									<h2>Soluciones tecnologicas</h2>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+								</span>
+							</div>
+						</div>
+						<div class="cell small-6">
+							<img class="image-banner" src="{{ url_for('static', filename='imagenes/pc-banner.png') }}">
+						</div>
+					</div>
 				</div>
-				<img class="image-banner" src="{{ url_for('static', filename='imagenes/pc-banner.png') }}">
 			</section>
 			<section class="grid-container Services">
 				<div class="Title-section">
 					<span><h2 id="NuestrosServicios">Nuestros servicios</h2></span>
 				</div>
-				<div class="grid-x align-center">
-				<div class="Service">
+				<div class="grid-x grid-margin-x">
+				<div class=" cell small-4 Service">
 					<div class="image-service">
 						<img src="{{ url_for('static', filename='imagenes/programacion.png') }}" alt="">
 					</div>
@@ -25,7 +35,7 @@
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					</div>
 				</div>
-				<div class="Service">
+				<div class=" cell small-4 Service">
 					<div class="image-service">
 						<img src="{{ url_for('static', filename='imagenes/consultoria.png') }}" alt="">
 					</div>
@@ -36,7 +46,7 @@
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					</div>
 				</div>
-				<div class="Service">
+				<div class=" cell small-4 Service">
 					<div class="image-service">
 						<img src="{{ url_for('static', filename='imagenes/hardware.png') }}" alt="">
 					</div>
@@ -47,7 +57,7 @@
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					</div>
 				</div>
-				<div class="Service">
+				<div class=" cell small-4 Service">
 					<div class="image-service">
 						<img src="{{ url_for('static', filename='imagenes/software.png') }}" alt="">
 					</div>
@@ -58,7 +68,7 @@
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					</div>
 				</div>
-				<div class="Service">
+				<div class=" cell small-4 Service">
 					<div class="image-service">
 						<img src="{{ url_for('static', filename='imagenes/database.png') }}" alt="">
 					</div>
@@ -69,7 +79,7 @@
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					</div>
 				</div>
-				<div class="Service">
+				<div class=" cell small-4 Service">
 					<div class="image-service">
 						<img src="{{ url_for('static', filename='imagenes/tecnico.png') }}" alt="">
 					</div>

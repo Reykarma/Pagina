@@ -15,7 +15,6 @@ header {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100px;
 	padding: 0 35px;
 	transition: .3s;
 	color: white;
@@ -83,46 +82,29 @@ header nav ul li a:hover{
 		display: none;
 	}
 .container-banner{
-	margin: 0 auto;
-	width: 100%;
-	height:90vh;
-	background: linear-gradient(#007bb6 10%, white 100%);
-	background-size: cover;
-	background-position: center;
-	margin-top: 100px;
-	margin-bottom: 40px;
+	padding-top: 5em;
+	/*background: linear-gradient(#007bb6 10%, white 100%);*/
 }
 .banner{
 	width: 90%;
 	margin: 0 auto;
 }
 .image-banner{
-	height: 420px;
-	float: right;
-}
-.title-text-banner{
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	width: 100%;
 }
-.text-banner{
-	width: 90%;
-	height: 350px;
-	text-align: justify;
-	font-size: 1.2em;
-	color: white;
-	font-weight: bold;
-	margin: 0 auto;
-	display: flex;
-justify-content: center;
-align-items: center;
+.title-text-banner{
+
 }
+.text-banner{
+	font-size: 1.2em;
+	color: gray;
+	font-weight: bold;
+	}
 
 .text-banner h2{
 	margin-top: 10px;
 	font-size: 2em;
-	color: white;
+	color: gray;
 
 }
 .Services{

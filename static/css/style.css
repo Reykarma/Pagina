@@ -22,7 +22,7 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	background-color:#007bb6;
+	background-color:black;
 	font-size: 1.09em;
 }
 
@@ -46,13 +46,14 @@ nav ul li a{
 	padding: 12px 30px;
 	text-decoration: none;
 	transition: .3s;
-	color: white;
+	color: #b6b6b6;
 	font-family: 'Nunito', sans-serif;
 	font-size: 1em;
+	opacity: 1;
 }
 
 header.black nav ul li a{
-	color: #8a8a8a;
+	color:#b6b6b6;
 }
 nav ul li a:focus{
 	outline: none;
@@ -62,14 +63,14 @@ nav ul li a.active{
 }
 
 header.black {
-	height: 50px;
-	background-color: #FFF;
+	height: 60px;
+	background-color: black;
 	color: #8a8a8a;
 	box-shadow: 0 0 5px 0 lightslategray;
+	opacity: 0.90;
 }
 
 header nav ul li a:hover{
-	background: #1B9CFC;
 	color: #ffff;
 }
 	.icon-menu {
@@ -82,7 +83,8 @@ header nav ul li a:hover{
 		display: none;
 	}
 .container-banner{
-	padding-top: 5em;
+	padding-top: 25vh;
+	padding-bottom: 20vh;
 	/*background: linear-gradient(#007bb6 10%, white 100%);*/
 }
 .banner{
@@ -125,7 +127,7 @@ header nav ul li a:hover{
 }
 .Title-section span h2{
 	border-bottom: 3px solid #08A3CC;
-	 color: #e36800;
+	 color: #096db5;
 }
 .Service{
 	width: 300px;
@@ -137,7 +139,7 @@ header nav ul li a:hover{
 }
 .Service:hover{
 	background-color:#f4f4f4;
-	color: #007bb6;
+	color: #004c9c;
 }
 .Service:hover .text-service{
 	color: black;

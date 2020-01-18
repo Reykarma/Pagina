@@ -83,8 +83,8 @@ header nav ul li a:hover{
 		display: none;
 	}
 .container-banner{
-	padding-top: 25vh;
-	padding-bottom: 20vh;
+	margin-top: 20vh;
+	height: 80vh;
 	/*background: linear-gradient(#007bb6 10%, white 100%);*/
 }
 .banner{
@@ -107,91 +107,57 @@ header nav ul li a:hover{
 	margin-top: 10px;
 	font-size: 2em;
 	color: gray;
-
 }
-.Services{
-	/*width: 70%;*/
-	margin: 0 auto;
-	margin-top: 10px;
-	margin-bottom: 60px;
+
+/* Area Servicios */
+
+.Services_container{
+	height: 90vh;
+	width: 98vw;
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
+	margin: 0 auto;
+}
+.Services_description{
+	background-color: white;
 }
 .Title-section, .Title-portfolio{
 	width: 100%;
-	text-align: center;
+	text-align: left;
 	font-size: 1.5em;
 	font-family: 'Nunito', sans-serif;
 	margin: 0 auto;
+	padding: 20px;
 }
 .Title-section span h2{
-	border-bottom: 3px solid #08A3CC;
-	 color: #096db5;
+	 color:black;
+}
+.text_services{
+	color: #373737;
+	font-size: 1.1em;
+	text-align: left;
+	font-family: 'Nunito', sans-serif;
+	padding:10px 25px 20px 25px;
 }
 .Service{
-	width: 300px;
-	height: 300px;
-	/*margin-left: 20px;
-	margin-right: 20px;
-	margin-top: 30px;*/
-	border-radius: 5px;
-}
-.Service:hover{
-	background-color:#f4f4f4;
-	color: #004c9c;
-}
-.Service:hover .text-service{
-	color: black;
+	height: 45%;
+	box-shadow: 3px 3px 20px 0px #d6d6d6;
 }
 .image-service{
-	margin: 0 auto;
-	margin-top: 20px;
-	width: 100px;
-	height: 100px;
+	text-align: center;
 }
-.image-service img , .image-nosotros img{
-	width: 100%;
+.image-service img{
+	width: 40%;
 }
 .title-service{
-	width: 100%;
 	text-align: center;
-	font-family: 'Nunito', sans-serif;
 }
 .text-service{
-	color: #464444;
-	text-align: justify;
-	width: 90%;
-  font-family: 'Tajawal', sans-serif;
-	font-size: 1.1em;
-	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
 }
-.contenedor-nosotros{
-	width: 90%;
-	margin: 0 auto;
-	margin-top: 10px;
-	margin-bottom: 30px;
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-}
-.nosotros{
-	width: 32%;
-	height: 300px;
-	margin-top: 30px;
-}
- .image-nosotros{
-	 margin: 0 auto;
-	 width: 90px;
-	 height: 90px;
- }
- .text-nosotros{
-	 font-family: 'Tajawal', sans-serif;
-	 text-align: center;
-	 width: 90%;
-	 margin: 0 auto;
-	 margin-top: 20px;
- }
+/* Servicios end */
  .portfolio{
  	text-align: center;
  	width: 100%;
@@ -230,6 +196,34 @@ header nav ul li a:hover{
  .text-portfolio{
 	 font-size: 25px;
  }
+
+ /*.contenedor-nosotros{
+ 	width: 90%;
+ 	margin: 0 auto;
+ 	margin-top: 10px;
+ 	margin-bottom: 30px;
+ 	display: flex;
+ 	justify-content: space-around;
+ 	flex-wrap: wrap;
+ }
+ .nosotros{
+ 	width: 32%;
+ 	height: 300px;
+ 	margin-top: 30px;
+ }
+  .image-nosotros{
+ 	 margin: 0 auto;
+ 	 width: 90px;
+ 	 height: 90px;
+  }
+  .text-nosotros{
+ 	 font-family: 'Tajawal', sans-serif;
+ 	 text-align: center;
+ 	 width: 90%;
+ 	 margin: 0 auto;
+ 	 margin-top: 20px;
+  }*/
+
 
  @media screen and (max-width: 990px) {
 	nav ul {

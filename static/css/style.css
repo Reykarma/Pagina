@@ -84,7 +84,7 @@ header nav ul li a:hover{
 	}
 .container-banner{
 	margin-top: 20vh;
-	height: 80vh;
+	/*height: 80vh;*/
 	/*background: linear-gradient(#007bb6 10%, white 100%);*/
 }
 .banner{
@@ -99,14 +99,20 @@ header nav ul li a:hover{
 }
 .text-banner{
 	font-size: 1.2em;
-	color: gray;
-	font-weight: bold;
 	}
 
 .text-banner h2{
-	margin-top: 10px;
-	font-size: 2em;
-	color: gray;
+	margin-bottom: 18px;
+
+
+
+  /*  font-family: 'Zhi Mang Xing', cursive;
+
+  /*  font-family: 'Pacifico', cursive;*/
+
+    font-family: 'Kaushan Script', cursive;
+
+
 }
 
 /* Area Servicios */

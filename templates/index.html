@@ -2,19 +2,20 @@
 			{% extends 'plantillas/cuerpo.html'%}
 
 			{%block cuerpo %}
+
+<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Pacifico|Zhi+Mang+Xing&display=swap" rel="stylesheet">
+
 			<section class="container-banner">
-				<div class="banner grid-container">
+				<div class="banner">
 					<div class="grid-x align-center">
-						<div class="cell medium-6 grid-x align-center-middle">
-							<div class="text-banner ">
+						<div class="cell medium-6 grid-x align-center-middle grid-container">
+							<div class="grid-container text-banner ">
 								<span>
 									<h2>Soluciones tecnologicas</h2>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-									lorem
-								</span>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
 							</div>
 						</div>
-						<div class="cell medium-6">
+						<div class="cell medium-6 grid-container">
 							<img class="image-banner" src="{{ url_for('static', filename='imagenes/pc-banner.png') }}">
 						</div>
 					</div>

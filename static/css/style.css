@@ -84,7 +84,7 @@ header nav ul li a:hover{
 	}
 .container-banner{
 	margin-top: 20vh;
-	/*height: 80vh;*/
+	height: 80vh;
 	/*background: linear-gradient(#007bb6 10%, white 100%);*/
 }
 .banner{
@@ -95,16 +95,12 @@ header nav ul li a:hover{
 	width: 100%;
 }
 .title-text-banner{
-
 }
 .text-banner{
 	font-size: 1.2em;
 	}
-
 .text-banner h2{
 	margin-bottom: 18px;
-
-
 
   /*  font-family: 'Zhi Mang Xing', cursive;
 
@@ -118,15 +114,18 @@ header nav ul li a:hover{
 /* Area Servicios */
 
 .Services_container{
-	height: 90vh;
+	height: 95vh;
 	width: 98vw;
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
 	margin: 0 auto;
+	background-color: #f5f5f5;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
 }
 .Services_description{
-	background-color: white;
+	display: table;
 }
 .Title-section, .Title-portfolio{
 	width: 100%;
@@ -154,14 +153,17 @@ header nav ul li a:hover{
 	text-align: center;
 }
 .image-service img{
-	width: 40%;
+	width: 35%;
 }
 .title-service{
 	text-align: center;
 }
 .text-service{
 	text-align: center;
-	padding: 10px;
+	padding: 12px;
+	font-size: 0.9em;
+	font-family: 'Nunito', sans-serif;
+	text-align: justify;
 }
 /* Servicios end */
  .portfolio{

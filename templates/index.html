@@ -3,19 +3,21 @@
 
 			{%block cuerpo %}
 
-<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Pacifico|Zhi+Mang+Xing&display=swap" rel="stylesheet">
 
-			<section class="container-banner">
+			<section class="grid-container banner-height">
 				<div class="banner">
-					<div class="grid-x align-center">
-						<div class="cell medium-6 grid-x align-center-middle grid-container">
-							<div class="grid-container text-banner ">
-								<span>
-									<h2>Soluciones tecnologicas</h2>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+					<div class="grid-x align-middle banner-height">
+						<div class="cell medium-6">
+							<div class="text-banner">
+								<h2>Soluciones tecnologicas</h2>
+								<div class="banner-text">
+									Tenemos la solución para tu negocio, enfrenta todos los obstaculos del mundo digital.
+								</div>
+
+								<button class="banner-button">Conocer más</button>
 							</div>
 						</div>
-						<div class="cell medium-6 grid-container">
+						<div class="cell medium-6">
 							<img class="image-banner" src="{{ url_for('static', filename='imagenes/pc-banner.png') }}">
 						</div>
 					</div>

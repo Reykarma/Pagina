@@ -60,8 +60,8 @@
     }
 }
 
-@media screen  and (max-width: 475px) {
-    .form-contact {
+@media screen  and (max-width: 520px) {
+    .form-contact, .more-contact-forms {
         width: 100%;
     }
 }

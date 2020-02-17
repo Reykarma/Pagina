@@ -12,7 +12,7 @@ header {
 
 	header.h-scroll {
 		height: 60px;
-		color: #444;
+		color: #333;
 	}
 
 	header.h-scroll::before {
@@ -66,6 +66,7 @@ header.black nav ul li a {
 }
 
 nav ul li a.active {
+    color: #1B9CFC;
     border-bottom: 3px solid #1B9CFC;
 }
 
@@ -88,6 +89,22 @@ header nav ul li a:hover {
     display: none;
 }
 
+
+a.link-contact {
+    /* background-color: #07b0ef; */
+    color: #1b9cfc;
+    border-radius: 2px;
+    padding: 12px 30px;
+    box-shadow: 0px 1px 5px -3px rgba(0,0,0,0.8);
+    border: 1px solid #1b9cfc;
+}
+    a.link-contact:hover {
+        color: #FFF;
+        border-bottom: initial;
+        background-color: #1b9cfc;
+        border: 1px solid #1b9cfc;
+        box-shadow: initial;
+    }
 /* .cell.medium-10.box-nav {
     display: none;
 } */
@@ -115,6 +132,7 @@ header nav ul li a:hover {
 
     nav ul li {
         display: flex;
+        justify-content: center;
     }
 
     nav ul li>a {
@@ -122,6 +140,11 @@ header nav ul li a:hover {
         width: 100%;
     }
 
+    a.link-contact {
+        background-color: #1b9cfc;
+        color: #FFF;
+        width: 80%;
+    }
     nav ul li a.active {
         color: #FFF;
         background-color: #1B9CFC;

@@ -161,31 +161,34 @@ body{
 	 font-size: 25px;
  }
 
+.benefits_section{
+	height: 80vh;
+}
 .Benefits{
 	margin-top: 40px;
 	height:90vh;
 }
+.benefit-left h3,.benefit-right h3,.benefit-left p,.benefit-right p{
+	font-family: 'Nunito', sans-serif;
+	width: 90%;
+}
 .benefit-left,.benefit-right{
 	width: 100%;
-	padding: 25px;
+	padding: 20px;
 }
-.benefit-right{
-	text-align: left;
-	}
-.benefit-left{
+.benefit-left p,.benefit-left h3{
 	text-align: right;
-}
-
-.benefit-left h3,.benefit-right h3{
-	font-family: 'Nunito', sans-serif;
-}
-.benefit-left p,.benefit-right p{
-	font-family: 'Nunito', sans-serif;
-	width: 85%;
 }
 .benefit-left p{
 	float: right;
 }
+.image_benefits{
+width: 25px;
+height: 25px;
+background-color: gray;
+margin: 0 8px 0 8px;
+}
+
  /*.contenedor-nosotros{
  	width: 90%;
  	margin: 0 auto;

@@ -162,11 +162,11 @@ body{
  }
 
 .benefits_section{
-	height: 80vh;
+	min-height: 80vh;
 }
 .Benefits{
 	margin-top: 40px;
-	height:90vh;
+	/* height:90vh; */
 }
 .benefit-left h3,.benefit-right h3,.benefit-left p,.benefit-right p{
 	font-family: 'Nunito', sans-serif;

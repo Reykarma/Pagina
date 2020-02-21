@@ -27,7 +27,7 @@ body{
 }
 .container-banner{
 	margin-top: 20vh;
-	height: 80vh;
+	/*height: 80vh;*/
 	/*background: linear-gradient(#007bb6 10%, white 100%);*/
 }
 /* .banner{
@@ -68,18 +68,15 @@ body{
 /* Area Servicios */
 
 .Services_container{
-	height: 95vh;
+	/*height: 90vh;*/
 	width: 98vw;
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
 	margin: 0 auto;
-	background-color: #f5f5f5;
-	padding-top: 5vh;
-	padding-bottom: 5vh;
 }
 .Services_description{
-	display: table;
+	background-color: white;
 }
 .Title-section, .Title-portfolio{
 	width: 100%;
@@ -100,15 +97,18 @@ body{
 	padding:10px 25px 20px 25px;
 }
 .Service{
-	height: 45%;
+	/*height: 45%;*/
+	margin-top:15px;
+	margin-bottom: 15px;
 	box-shadow: 3px 3px 20px 0px #d6d6d6;
 	border-radius: 10px;
 }
 .image-service{
 	text-align: center;
+	margin-top:8px;
 }
 .image-service img{
-	width: 35%;
+	width: 40%;
 }
 .title-service{
 	text-align: center;
@@ -116,10 +116,7 @@ body{
 }
 .text-service{
 	text-align: center;
-	padding: 12px;
-	font-size: 0.9em;
-	font-family: 'Nunito', sans-serif;
-	text-align: justify;
+	padding: 10px;
 }
 /* Servicios end */
  .portfolio{
@@ -215,3 +212,11 @@ margin: 0 8px 0 8px;
  	 margin: 0 auto;
  	 margin-top: 20px;
   }*/
+.paralax{
+	min-height: 380px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

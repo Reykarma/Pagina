@@ -68,15 +68,13 @@ body{
 /* Area Servicios */
 
 .Services_container{
-	/*height: 90vh;*/
-	width: 98vw;
+	height: 90vh;
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
 	margin: 0 auto;
-}
-.Services_description{
-	background-color: white;
+	margin-bottom: 50px;
+	background-color: #f4f1f1;
 }
 .Title-section, .Title-portfolio{
 	width: 100%;
@@ -84,7 +82,6 @@ body{
 	font-size: 1.5em;
 	font-family: 'Nunito', sans-serif;
 	margin: 0 auto;
-	padding: 20px;
 }
 .Title-section span h2{
 	color:black;
@@ -94,10 +91,8 @@ body{
 	font-size: 1.1em;
 	text-align: left;
 	font-family: 'Nunito', sans-serif;
-	padding:10px 25px 20px 25px;
 }
 .Service{
-	/*height: 45%;*/
 	margin-top:15px;
 	margin-bottom: 15px;
 	box-shadow: 3px 3px 20px 0px #d6d6d6;
@@ -108,7 +103,7 @@ body{
 	margin-top:8px;
 }
 .image-service img{
-	width: 40%;
+	width: 30%;
 }
 .title-service{
 	text-align: center;
@@ -116,7 +111,9 @@ body{
 }
 .text-service{
 	text-align: center;
-	padding: 10px;
+	padding: 12px;
+	font-family: 'Nunito', sans-serif;
+
 }
 /* Servicios end */
  .portfolio{
@@ -213,7 +210,7 @@ margin: 0 8px 0 8px;
  	 margin-top: 20px;
   }*/
 .paralax{
-	min-height: 380px;
+	min-height: 340px;
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
 	background-position: center;

@@ -6,6 +6,10 @@ app = Flask(__name__)
 def hello():
     return render_template("index.html")
 
+@app.route("/nosotros")
+def nosotros():
+    return render_template("nosotros.html")
+
 @app.route("/contacto")
 def contacto():
     return render_template("contacto.html")

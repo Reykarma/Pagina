@@ -93,11 +93,11 @@ header nav ul li a:hover {
 
 a.link-contact {
     /* background-color: #07b0ef; */
-    color: #1b9cfc;
+    color: #4010ff;
     border-radius: 2px;
     padding: 12px 30px;
     box-shadow: 0px 1px 5px -3px rgba(0,0,0,0.8);
-    border: 1px solid #1b9cfc;
+    border: 1px solid #4010ff;
 }
     a.link-contact:hover {
         color: #FFF;

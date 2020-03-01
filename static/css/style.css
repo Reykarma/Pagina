@@ -41,7 +41,7 @@ body{
 .text-banner h2{
 	margin-bottom: 18px;
 	font-size: 3em;
-    font-family: 'oregano','sans-serif', cursive;
+    /* font-family: 'sans-serif', cursive; */
 }
 
 .banner-text{
@@ -64,6 +64,44 @@ body{
 	background-color: rgb(22, 150, 255);
 	cursor: pointer;
 }
+
+
+
+.content {
+	position: relative;
+	/* width: 500px; */
+}
+
+.content img[src*="jpg"] {
+	width: 100%;
+}
+
+.content img[src*="foco.png"] {
+	width: 33%;
+	top: 20%;
+	left: 33%;
+	position: absolute;
+	animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		/* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
+		transform: translatey(0px);
+	}
+
+	50% {
+		/* box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2); */
+		transform: translatey(-20px);
+	}
+
+	100% {
+		/* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
+		transform: translatey(0px);
+	}
+}
+
+
 
 /* Area Servicios */
 

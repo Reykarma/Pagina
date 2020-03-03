@@ -20,7 +20,7 @@
 
   <section class="about">
     <div class="grid-x">
-      <div class="medium-6">
+      <div class="grid-y align-center medium-6">
         <div class="about-us">
           <h2> ¿Como comenzamos? </h2>
           <div class="image-about-us">
@@ -30,7 +30,7 @@
         </div>
 
       </div>
-      <div class="medium-6">
+      <div class=" grid-y align-center medium-6">
         <div class="about-us">
           <h2> ¿Que hacemos? </h2>
           <div class="image-about-us">
@@ -43,8 +43,27 @@
   </section>
 
   <section class="process">
-    <h2>Nuestra Metodologia</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <h2> ¿Como trabajamos? </h2>
+    <p>En nuestro equipo de trabajo utilizamos una serie de pasos con el fin de brindar la mayor calidad-precio.</p>
+    <div class="align-center grid-x methodology">
+      <div class=" medium-3 methodology-step">
+        <img src="{{ url_for('static', filename='imagenes/talking.svg') }}" alt="Twitter">
+        <h4> Establecer la idea </h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+
+      <div class=" medium-3 methodology-step">
+        <img src="{{ url_for('static', filename='imagenes/board.svg') }}" alt="Twitter">
+        <h4> Metodologia de desarrollo </h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+
+      <div class="medium-3 methodology-step">
+        <img src="{{ url_for('static', filename='imagenes/programming.svg') }}" alt="Twitter">
+        <h4> Desarrollo del proyecto </h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
   </section>
 </div>
 

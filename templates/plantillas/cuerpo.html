@@ -16,14 +16,14 @@
 		<!-- <script src="https://code.jquery.com/jquery-3.1.1.js"></script> -->
 		<!-- <script src="https://code.jquery.com/jquery-3.2.1.js"></script> -->
 		<script src="{{ url_for('static', filename='js/jquery.js') }}"></script>
-		
+
 
 	{%block head %}
 
 	{%endblock%}
 
 	</head>
-	<body>
+	<body id="body">
 		<!-- <div class="container"> -->
 			<header id="bar-head">
 				<nav class="grid-container grid-x align-middle">
@@ -107,15 +107,18 @@
 			// Scroll bar
 			let barfloat = false;
 			let head = document.getElementById("bar-head");
+			let body = document.getElementById("body");
 
 			window.onscroll = (evt) => {
-				if(!barfloat && document.documentElement.scrollTop >= window.screen.height - 117) {
+				if(!barfloat && document.documentElement.scrollTop >= window.screen.height-117) {
 					head.classList.toggle('h-scroll');
+					body.classList.toggle('margin-header');
 					barfloat = true;
 				}
 
-				if(barfloat && document.documentElement.scrollTop <= window.screen.height - 117) {
-					head.classList.toggle('h-scroll');
+				if(barfloat && document.documentElement.scrollTop <= window.screen.height-117) {
+					head.classList.toggle('h-scroll')
+					body.classList.toggle('margin-header');
 					barfloat = false;
 				}
 			}

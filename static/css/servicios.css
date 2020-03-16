@@ -1,0 +1,11 @@
+
+.text-service{
+  width: 100%;
+  text-align: justify;
+}
+.text-service h3{
+  text-align: center;
+}
+.text-service p{
+  padding: 15px;
+}

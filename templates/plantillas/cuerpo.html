@@ -27,7 +27,6 @@
 		<!-- <div class="container"> -->
 			<header id="bar-head">
 				<nav class="grid-container grid-x align-middle">
-
 					<div class="cell small-3 medium-2">
 						<div style="color: black;">
 							<a href="/" title="Inicio">
@@ -42,9 +41,16 @@
 						</div>
 					</div>
 
-					<ul class="cell medium-10 align-right">
+					<ul class=" cell medium-10 align-right">
 						<li><a class="active" href="/">Inicio</a></li>
-						<li><a href="/servicios">Servicios</a></li>
+						<li><a href="#">Servicios</a>
+							<ul class="list-menu">
+								<li><a href="/web_design"> Diseño web </a></li>
+								<li><a href="#"> Microservicios </a></li>
+								<li><a href="#"> Diseño web </a></li>
+								<li><a href="#"> Microservicios </a></li>
+							</ul>
+						</li>
 						<li><a href="/nosotros">Nosotros</a></li>
 						<li><a href="portafolio.html">Portafolio</a></li>
 						<li><a href="/contacto" class="link-contact">Contacto</a></li>
@@ -108,6 +114,7 @@
 			let barfloat = false;
 			let head = document.getElementById("bar-head");
 			let body = document.getElementById("body");
+			let list_menu = document.getElementById("list-menu")
 
 			window.onscroll = (evt) => {
 				if(!barfloat && document.documentElement.scrollTop >= window.screen.height-117) {

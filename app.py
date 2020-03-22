@@ -14,9 +14,9 @@ def nosotros():
 def contacto():
     return render_template("contacto.html")
 
-@app.route("/servicios")
+@app.route("/web_design")
 def servicios():
-    return render_template("servicios.html")
+    return render_template("web_design.html")
 
 if __name__ == '__main__':
     app.run(debug=True)

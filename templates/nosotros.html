@@ -3,7 +3,7 @@
 {%block head %}
 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/nosotros.css') }}">
 <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
-
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 {%endblock%}
 
 {%block cuerpo %}
@@ -47,10 +47,9 @@
   </section>
 
   <section class="process">
-    <div class=" grid-y align-center procces-container">
+    <div class=" grid-y align-center process-container">
       <h2> ¿Como trabajamos? </h2>
-        <p>En nuestro equipo de trabajo utilizamos una serie de pasos con el fin de brindar la mayor calidad-precio.</p>
-
+      <p>En nuestro equipo de trabajo utilizamos una serie de pasos con el fin de brindar la mayor calidad-precio.</p>
       <div class="align-center grid-x methodology">
         <div class=" medium-3 methodology-step">
           <img src="{{ url_for('static', filename='imagenes/talking.svg') }}" alt="Twitter">
@@ -72,6 +71,51 @@
       </div>
     </div>
   </section>
+
+  <section class="team">
+    <div class="grid-y align-center abilities">
+      <h2> Tenemos la herramienta correcta para ti </h2>
+      <p> Nuestro equipo esta en constante actualizacion en el area de software y contamos con una amplia variedad de herramientas que pueden dar la solucion a tu problema</p>
+    </div>
+    <div class="technologies">
+      <div class="technology">
+        <img src="{{ url_for('static', filename='imagenes/technology/html.png') }}" alt="html">
+      </div>
+      <div class="technology">
+        <img src="{{ url_for('static', filename='imagenes/technology/css.png') }}" alt="css">
+      </div>
+      <div class="technology">
+        <img src="{{ url_for('static', filename='imagenes/technology/javascript.png') }}" alt="javascript">
+      </div>
+      <div class="technology">
+        <img src="{{ url_for('static', filename='imagenes/technology/vuejs.png') }}" alt="vuejs">
+      </div>
+      <div class="technology">
+        <img src="{{ url_for('static', filename='imagenes/technology/nativescript.png') }}" alt="nativescript">
+      </div>
+      <div class="technology">
+        <img src="{{ url_for('static', filename='imagenes/technology/python.png') }}" alt="python">
+      </div>
+      <div class="technology">
+        <img src="{{ url_for('static', filename='imagenes/technology/flask.png') }}" alt="flask">
+      </div>
+    </div>
+  </section>
 </div>
 
+
+{%endblock%}
+
+{%block script %}
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('.technologies').slick({
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 3000,
+    })
+  });
+</script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 {%endblock%}

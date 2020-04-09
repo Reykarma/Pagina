@@ -112,6 +112,9 @@ text-align: center;
   font-size: 19px;
 }
 .technology img{
-  height: 120px;
+  height: 130px;
   margin: 0 auto;
+  border-radius: 5px;
+  padding: 10px;
+  background: rgb(238, 238, 238);
 }

@@ -13,3 +13,10 @@
 .imagen-servicio{
   border-radius: .5em;
 }
+.caja{
+  background: #57c387;
+  margin:15px;
+  height: 260px;
+  border-radius: 5px;
+  padding: 15px;
+}

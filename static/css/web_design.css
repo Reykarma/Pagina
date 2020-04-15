@@ -14,9 +14,16 @@
   border-radius: .5em;
 }
 .caja{
-  background: #57c387;
+  background: none;
   margin:15px;
   height: 260px;
   border-radius: 5px;
   padding: 15px;
+}
+
+.caja img{
+  background:none;
+  width: 200px;
+  height: 150px;
+  margin-bottom: 10px;
 }

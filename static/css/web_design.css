@@ -6,6 +6,12 @@
   border-radius: 5px;
   color:#393939;
 }
+.title{
+  font-size: xxx-large;
+  color:#3d885f;
+  text-align:right;
+  margin-right:15px;
+}
 .text-service p{
   padding: 15px;
   margin-top: -35px;
@@ -29,6 +35,14 @@
 .cajon{
   padding-top: 3em;
   padding-bottom: 3em;
-  background: #DED7F6;
+  background: #D3E7DC;
   border-radius: 10px;
+}
+.atractor-servicios{
+ width:850px;
+ height:70px;
+ text-align:center;
+ background:#FBFBFB;
+ margin-bottom:-2.3em; 
+ border-radius:3px;
 }

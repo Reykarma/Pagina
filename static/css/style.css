@@ -1,156 +1,164 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
-body{
-	margin: 0;
-	padding: 0;
-	font-family: Quicksand;
-	background-color: white;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Quicksand;
+  background-color: white;
 }
 
 .page-height {
-    padding-top: 80px;
-    min-height: calc(100vh - 98px);
+  padding-top: 80px;
+  min-height: calc(100vh - 98px);
 }
 
 .banner-height {
-    min-height: calc(100vh - 80px);
+  min-height: calc(100vh - 80px);
 }
 
 .banner-content {
-	min-height: calc(100vh - 80px);
+  min-height: calc(100vh - 80px);
 }
-.container-banner{
-	margin-top: 20vh;
-	/*height: 80vh;*/
-	/*background: linear-gradient(#007bb6 10%, white 100%);*/
+
+.container-banner {
+  margin-top: 20vh;
+  /*height: 80vh;*/
+  /*background: linear-gradient(#007bb6 10%, white 100%);*/
 }
+
 /* .banner{
 	width: 90%;
 	margin: 0 auto;
 } */
-.image-banner{
-	width: 100%;
+.image-banner {
+  width: 100%;
 }
 
-.text-banner h2{
-	margin-bottom: 18px;
-	font-size: 3em;
-    /* font-family: 'sans-serif', cursive; */
+.text-banner h2 {
+  margin-bottom: 18px;
+  font-size: 3em;
+  /* font-family: 'sans-serif', cursive; */
 }
 
-.banner-text{
-	font-size: 1.5em;
-	font-family: 'Nunito';
-	margin-bottom: 18px;
-
+.banner-text {
+  font-size: 1.5em;
+  font-family: 'Nunito';
+  margin-bottom: 18px;
+  color: #2f2f2f;
 }
 
 .banner-button {
-	padding: 18px 25px;
-	color: #fff;
-	background-color: #d9534f;
-	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
-	font-family: 'Nunito';
-	font-size: 18px;
+  padding: 18px 25px;
+  color: #fff;
+  background-color: #d9534f;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  font-family: 'Nunito';
+  font-size: 18px;
 }
 
 .button-banner:hover {
-	background-color: rgb(22, 150, 255);
-	cursor: pointer;
+  background-color: rgb(22, 150, 255);
+  cursor: pointer;
 }
 
-
-
 .content {
-	position: relative;
-	/* width: 500px; */
+  position: relative;
+  /* width: 500px; */
 }
 
 .content img[src*="jpg"] {
-	width: 100%;
+  width: 100%;
 }
 
 .content img[src*="foco.png"] {
-	width: 33%;
-	top: 20%;
-	left: 33%;
-	position: absolute;
-	animation: float 6s ease-in-out infinite;
+  width: 33%;
+  top: 20%;
+  left: 33%;
+  position: absolute;
+  animation: float 6s ease-in-out infinite;
 }
 
 @keyframes float {
-	0% {
-		/* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
-		transform: translatey(0px);
-	}
+  0% {
+    /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
+    transform: translatey(0px);
+  }
 
-	50% {
-		/* box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2); */
-		transform: translatey(-20px);
-	}
+  50% {
+    /* box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2); */
+    transform: translatey(-20px);
+  }
 
-	100% {
-		/* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
-		transform: translatey(0px);
-	}
+  100% {
+    /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
+    transform: translatey(0px);
+  }
 }
-
-
 
 /* Area Servicios */
+.Services_container {
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background-color: #f5f5f5;
+}
 
-.Services_container{
-	height: 90vh;
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	margin: 0 auto;
-	margin-bottom: 50px;
-	background-color: #f5f5f5;
+.Title-section, .Title-portfolio {
+  width: 100%;
+  text-align: left;
+  font-size: 1.5em;
+  font-family: 'Nunito', sans-serif;
+  margin: 0 auto;
 }
-.Title-section, .Title-portfolio{
-	width: 100%;
-	text-align: left;
-	font-size: 1.5em;
-	font-family: 'Nunito', sans-serif;
-	margin: 0 auto;
+
+.Title-section span h2 {
+  color: black;
 }
-.Title-section span h2{
-	color:black;
+
+.text_services {
+  color: #2f2f2f;
+  font-size: 1.1em;
+  text-align: left;
+  font-family: 'Hind';
 }
-.text_services{
-	color: #373737;
-	font-size: 1.1em;
-	text-align: left;
-	font-family: 'Hind';
+
+.Service {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  box-shadow: 3px 3px 20px 0px #d6d6d6;
+  border-radius: 10px;
 }
-.Service{
-	margin-top:15px;
-	margin-bottom: 15px;
-	box-shadow: 3px 3px 20px 0px #d6d6d6;
-	border-radius: 10px;
+
+.image-service {
+  text-align: center;
+  margin-top: 8px;
 }
-.image-service{
-	text-align: center;
-	margin-top:8px;
+
+.image-service img {
+  height: 85px
 }
-.image-service img{
-	height: 85px
+
+.title-service {
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  color: #d9534f;
 }
-.title-service{
-	text-align: center;
-	font-family: 'Nunito', sans-serif;
+
+.text-service {
+  text-align: justify;
+  padding: 15px;
+  font-family: 'Hind';
+  color: #2f2f2f;
 }
-.text-service{
-	text-align: center;
-	padding: 12px;
-	font-family: 'Hind';
-}
+
 /* Servicios end */
 /*
  .portfolio{
@@ -191,40 +199,47 @@ body{
 	 font-size: 25px;
  }
 */
-.benefits_section{
-	min-height: 80vh;
-}
-.Benefits{
-	margin-top: 40px;
-	/* height:90vh; */
-}
-.benefit-left h3,.benefit-right h3{
-	font-family: 'Nunito', sans-serif;
-	width: 90%;
-}
-.benefit-left p,.benefit-right p{
-	width: 90%;
-	font-family: 'Hind';
-	padding: 5px;
-}
-.benefit-left,.benefit-right{
-	width: 100%;
-	padding: 20px;
-}
-.benefit-left p,.benefit-left h3{
-	text-align: right;
-}
-.benefit-left p{
-	float: right;
-}
-.image_benefits{
-width: 35px;
-height: 35px;
-
-margin: 0 8px 0 8px;
+.benefits_section {
+  min-height: 80vh;
 }
 
- /*.contenedor-nosotros{
+.Benefits {
+  margin-top: 40px;
+  /* height:90vh; */
+}
+
+.benefit-left h3, .benefit-right h3 {
+  font-family: 'Nunito', sans-serif;
+  width: 90%;
+}
+
+.benefit-left p, .benefit-right p {
+  width: 90%;
+  font-family: 'Hind';
+  padding: 5px;
+  color: #2f2f2f;
+}
+
+.benefit-left, .benefit-right {
+  width: 100%;
+  padding: 20px;
+}
+
+.benefit-left p, .benefit-left h3 {
+  text-align: right;
+}
+
+.benefit-left p {
+  float: right;
+}
+
+.image_benefits {
+  width: 35px;
+  height: 35px;
+  margin: 0 8px 0 8px;
+}
+
+/*.contenedor-nosotros{
  	width: 90%;
  	margin: 0 auto;
  	margin-top: 10px;
@@ -250,15 +265,15 @@ margin: 0 8px 0 8px;
  	 margin: 0 auto;
  	 margin-top: 20px;
   }*/
-.paralax{
-	min-height: 340px;
-	/* Create the parallax scrolling effect */
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+.paralax {
+  min-height: 340px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.list-menu{
-	box-shadow:0px 4px 8px 3px rgba(226, 225, 225, 0.9);
+.list-menu {
+  box-shadow: 0px 4px 8px 3px rgba(226, 225, 225, 0.9);
 }

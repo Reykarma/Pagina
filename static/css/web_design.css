@@ -14,6 +14,7 @@
   color:#3d885f;
   text-align:right;
   margin-right:15px;
+  border-bottom: 3px solid;
 }
 .text-service p{
   padding: 15px;
@@ -40,7 +41,7 @@
 .cajon{
   padding-top: 3em;
   padding-bottom: 3em;
-  background: #D3E7DC;
+  background: #53516a;
   border-radius: 10px;
 }
 .atractor-servicios{

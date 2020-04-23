@@ -1,67 +1,71 @@
 .form-contact, .more-contact-forms {
-    width: 475px;
-    min-height: 50px;
-    background-color: #F1F1F1;
-    border-radius: 5px;
-    padding: 15px;
+  width: 475px;
+  min-height: 50px;
+  background-color: #F1F1F1;
+  border-radius: 5px;
+  padding: 15px;
+  font-family: 'Baloo Bhaina 2';
 }
 
 .more-contact-forms {
-    background-color: initial;
+  background-color: initial;
 }
 
-    .required {
-        color: red;
-    }
-
-    label {
-        font-family: sans-serif;
-    }
-
-    .fields, textarea {
-        padding: 10px 6px;
-        display: block;
-        min-height: 18px;
-        width: 100%;
-        border-radius: 5px;
-        border: 1px solid #ccc;
-        margin-bottom: 15px;
-    }
-    textarea {
-        height: 120px;
-    }
-
-    input[type=submit] {
-        background-color: #5785c3;
-        color: #fff;
-        font-weight: bold;
-        font-family: sans-serif;
-        padding-top: 16px;
-        padding-bottom: 16px;
-    }
-        input[type=submit]:hover {
-            cursor: pointer;
-            background-color: #008cff;
-        }
-
-    .box-form {
-        display: flex;
-        padding: 15px;
-    }
-    .box-form:nth-child(1) {
-        justify-content: flex-end;
-    }
-
-@media screen  and (max-width: 980px) {
-    .box-form, .box-form:nth-child(1) {
-        justify-content: center;
-        min-width: 100%;
-        padding: 15px 0;
-    }
+.required {
+  color: red;
 }
 
-@media screen  and (max-width: 520px) {
-    .form-contact, .more-contact-forms {
-        width: 100%;
-    }
+label {
+  font-family: sans-serif;
+}
+
+.fields, textarea {
+  padding: 10px 6px;
+  display: block;
+  min-height: 18px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+textarea {
+  height: 120px;
+}
+
+input[type=submit] {
+  background-color: #5785c3;
+  color: #fff;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+input[type=submit]:hover {
+  cursor: pointer;
+  background-color: #008cff;
+}
+
+.box-form {
+  display: flex;
+  padding: 15px;
+}
+
+.box-form:nth-child(1) {
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 980px) {
+  .box-form, .box-form:nth-child(1) {
+    justify-content: center;
+    min-width: 100%;
+    padding: 15px 0;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .form-contact, .more-contact-forms {
+    width: 100%;
+  }
 }

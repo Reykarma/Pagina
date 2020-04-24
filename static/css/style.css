@@ -141,6 +141,7 @@ body {
 .image-service {
   text-align: center;
   margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .image-service img {
@@ -150,12 +151,11 @@ body {
 .title-service {
   text-align: center;
   font-family: 'Nunito', sans-serif;
-  color: #d9534f;
 }
 
 .text-service {
   text-align: justify;
-  padding: 15px;
+  padding:8px 15px 15px 15px;
   font-family: 'Hind';
   color: #2f2f2f;
 }

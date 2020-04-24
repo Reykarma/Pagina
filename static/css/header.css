@@ -137,7 +137,8 @@ a.link-contact {
 a.link-contact:hover {
   color: #FFF;
   border-bottom: initial;
-  background-color: #d9534f;
+  background-color: #2e2e2e;
+  border-radius: 15px;
 }
 
 /* .cell.medium-10.box-nav {

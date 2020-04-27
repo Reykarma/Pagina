@@ -2,7 +2,8 @@
 
 {%block head %}
 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/web_design.css') }}">
-
+<link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 {%endblock%}
 
 {%block cuerpo %}
@@ -15,7 +16,7 @@
         <div class=" grid-y align-center container-text-service medium-6 small-12">
           <div class="text-service">
             <h1 class="title" style="">Desarrollo web</h1>
-            <p> Ofrecemos la creacion de sitios web personalizados ajustandonos a las distintas necesidades que una empresa puede tener cumpliendo con los estandares tecnologicos de hoy en dia, ¡ Es momento de que tu negocio entre al mundo digital!.
+            <p> Ofrecemos la creacion de sitios web personalizados ajustandonos a las distintas necesidades que una empresa puede tener cumpliendo con los estandares tecnologicos de hoy en dia, ¡Es momento de que tu negocio entre al mundo digital y tus clientes puedan encontrarte donde quiera que esten!
             <br>
             <br> <span> Contactanos, ofrecemos asesoria GRATUITA ! </span>
             </p>
@@ -65,8 +66,73 @@
     </div>
   </section>
 
-  <section>
+  <section class="process">
+    <div class=" grid-y align-center process-container">
+      <h2> ¿Como haremos tu Pagina Web? </h2>
+      <p>En nuestro equipo de trabajo tenemos una serie de pasos establecidos para que tu proyecto logre cumplir con todas tus necesidades y de tu negocio.</p>
+      <div class="align-center grid-x methodology">
+        <div class=" medium-3 methodology-step">
+          <img src="{{ url_for('static', filename='imagenes/talking.png') }}" alt="Twitter">
+          <h4> Establecer la idea </h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
 
+        <div class=" medium-3 methodology-step">
+          <img src="{{ url_for('static', filename='imagenes/board.png') }}" alt="Twitter">
+          <h4> Metodologia de desarrollo </h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+
+        <div class="medium-3 methodology-step">
+          <img src="{{ url_for('static', filename='imagenes/programming.png') }}" alt="Twitter">
+          <h4> Desarrollo del proyecto </h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="team">
+    <div class="grid-y align-center abilities">
+      <h2> Tenemos la herramienta correcta para ti </h2>
+      <p> Nuestro equipo esta en constante actualizacion en el area de software y contamos con una amplia variedad de herramientas que pueden dar la solucion a tu problema</p>
+    </div>
+    <div class="technologies">
+      <div class="technology">
+        <img src="{{ url_for('static', filename='imagenes/technology/html.png') }}" alt="html">
+      </div>
+      <div class="technology">
+        <img src="{{ url_for('static', filename='imagenes/technology/css.png') }}" alt="css">
+      </div>
+      <div class="technology">
+        <img src="{{ url_for('static', filename='imagenes/technology/javascript.png') }}" alt="javascript">
+      </div>
+      <div class="technology">
+        <img src="{{ url_for('static', filename='imagenes/technology/vuejs.png') }}" alt="vuejs">
+      </div>
+      <div class="technology">
+        <img src="{{ url_for('static', filename='imagenes/technology/python.png') }}" alt="python">
+      </div>
+      <div class="technology">
+        <img src="{{ url_for('static', filename='imagenes/technology/flask.png') }}" alt="flask">
+      </div>
+    </div>
   </section>
 </div>
+
+{%endblock%}
+
+{%block script %}
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('.technologies').slick({
+      slidesToShow: 5,
+      arrows:false,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 3000,
+    })
+  });
+</script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 {%endblock%}

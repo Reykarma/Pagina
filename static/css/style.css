@@ -136,6 +136,10 @@ body {
   margin-bottom: 15px;
   box-shadow: 3px 3px 20px 0px #d6d6d6;
   border-radius: 10px;
+  transition: transform .2s;
+}
+.Service:hover{
+  transform: scale(1.05)
 }
 
 .image-service {
@@ -145,7 +149,7 @@ body {
 }
 
 .image-service img {
-  height: 85px
+  height: 80px
 }
 
 .title-service {
@@ -155,11 +159,20 @@ body {
 
 .text-service {
   text-align: justify;
-  padding:8px 15px 15px 15px;
+  padding:8px 15px 0px 15px;
   font-family: 'Hind';
   color: #2f2f2f;
 }
-
+.text-service p{
+  padding-bottom: 5px;
+}
+.text-service span a{
+  font-weight: bold;
+  color: #d9534f;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Nunito', sans-serif;
+}
 /* Servicios end */
 /*
  .portfolio{

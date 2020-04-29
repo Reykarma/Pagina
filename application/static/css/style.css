@@ -252,33 +252,6 @@ body {
   height: 35px;
   margin: 0 8px 0 8px;
 }
-
-/*.contenedor-nosotros{
- 	width: 90%;
- 	margin: 0 auto;
- 	margin-top: 10px;
- 	margin-bottom: 30px;
- 	display: flex;
- 	justify-content: space-around;
- 	flex-wrap: wrap;
- }
- .nosotros{
- 	width: 32%;
- 	height: 300px;
- 	margin-top: 30px;
- }
-  .image-nosotros{
- 	 margin: 0 auto;
- 	 width: 90px;
- 	 height: 90px;
-  }
-  .text-nosotros{
- 	 font-family: 'Tajawal', sans-serif;
- 	 text-align: center;
- 	 width: 90%;
- 	 margin: 0 auto;
- 	 margin-top: 20px;
-  }*/
 .paralax {
   min-height: 340px;
   /* Create the parallax scrolling effect */

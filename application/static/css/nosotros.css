@@ -1,7 +1,7 @@
 .nosotros{
   clear: both;
 }
-.welcome{
+#welcome{
   height: 100vh;
 }
 .banner-nosotros, .about-container{
@@ -25,7 +25,7 @@
   width: 100%;
   /*box-shadow: 5px 5px 12px 4px gray;*/
 }
-.about{
+#about{
   margin-bottom: 30px;
   background-color: #f5f5f5;
 }
@@ -48,4 +48,10 @@ text-align: center;
   font-family: 'Hind';
   padding: 20px;
   color: #2f2f2f;
+}
+#choice{
+  margin-bottom: 30px;
+}
+.choice-test{
+  background-color: red;
 }

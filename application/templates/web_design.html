@@ -9,21 +9,23 @@
 {%block cuerpo %}
 <div class="grid-container">
   <section class="banner-web">
-      <div class="grid-x servicio">
+    <div class="grid-x servicio">
 
-        <div class="grid-y align-center medium-6 small-12" style="padding:10px;">
-          <img class="imagen-servicio" src="{{url_for('static', filename='imagenes/web_design/bla.png')}}" alt="">
-        </div>
-        <div class=" grid-y align-center container-text-service medium-5 small-12">
-          <div class="text-service">
-            <h1 class="title" style="">Desarrollo web</h1>
-            <p> Ofrecemos la creacion de sitios web personalizados ajustandonos a las distintas necesidades que una empresa puede tener cumpliendo con los estandares tecnologicos de hoy en dia, ¡Es momento de que tu negocio entre al mundo digital y tus clientes puedan encontrarte donde quiera que esten!
+      <div class="grid-y align-center medium-6 small-12" style="padding:10px;">
+        <img class="imagen-servicio" src="{{url_for('static', filename='imagenes/web_design/bla.png')}}" alt="">
+      </div>
+
+      <div class=" grid-y align-center container-text-service medium-6 small-12">
+        <div class="text-service">
+          <h1 class="title" style="">Desarrollo web</h1>
+          <p> Ofrecemos la creacion de sitios web personalizados ajustandonos a las distintas necesidades que una empresa puede tener cumpliendo con los estandares tecnologicos de hoy en dia, ¡Es momento de que tu negocio entre al mundo digital y tus
+            clientes puedan encontrarte donde quiera que esten!
             <br>
             <br> <span> Contactanos, ofrecemos asesoria GRATUITA ! </span>
-            </p>
-          </div>
+          </p>
         </div>
       </div>
+    </div>
   </section>
 
   <section>
@@ -32,37 +34,37 @@
         <h2>Las herramientas adecuadas para tener el mejor sitio</h2>
       </div>
     </div>
-    <div class="grid-container align-center grid-x cajon" style="margin-bottom:3em;">
-      <div class="medium-3 grid-y align-center-middle caja">
+    <div class="grid-container align-center grid-x container-subservices" style="margin-bottom:3em;">
+      <div class="medium-3 grid-y align-center-middle subservice">
         <img src="{{url_for('static', filename='imagenes/web_design/responsivo.png')}}" alt="">
-        <p><b>Diseño web responsivo</b></p>
-        <p style="color:gray; text-align:Center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+        <h4>Diseño web responsivo</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
       </div>
-      <div class="medium-3 grid-y align-center-middle caja">
+      <div class="medium-3 grid-y align-center-middle subservice">
         <img src="{{url_for('static', filename='imagenes/web_design/galeria.png')}}" alt="">
-        <p><b>Galerias de imagenes</b></p>
-        <p style="color:gray; text-align:Center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+        <h4>Galerias de imagenes</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
       </div>
-      <div class="medium-3 grid-y align-center-middle caja">
+      <div class="medium-3 grid-y align-center-middle subservice">
         <img src="{{url_for('static', filename='imagenes/web_design/idioma.png')}}" alt="">
-        <p><b>multi-idioma</b></p>
-        <p style="color:gray; text-align:Center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+        <h4>multi-idioma</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
 
       </div>
-      <div class="medium-3 grid-y align-center-middle caja">
+      <div class="medium-3 grid-y align-center-middle subservice">
         <img src="{{url_for('static', filename='imagenes/web_design/mail.png')}}" alt="">
-        <p style="text-align:center;"><b>Correos empresariales ilimitados</b></p>
-        <p style="color:gray; text-align:Center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+        <h4>Correos empresariales ilimitados</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
       </div>
-      <div class="medium-3 grid-y align-center-middle caja">
+      <div class="medium-3 grid-y align-center-middle subservice">
         <img src="{{url_for('static', filename='imagenes/web_design/server.png')}}" alt="">
-        <p><b>Servidor incluido</b></p>
-        <p style="color:gray; text-align:Center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+        <h4>Servidor incluido</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
       </div>
-      <div class="medium-3 grid-y align-center-middle caja">
+      <div class="medium-3 grid-y align-center-middle subservice">
         <img src="{{url_for('static', filename='imagenes/web_design/sesiones.png')}}" alt="">
-        <p><b>Manejo de sesiones</b></p>
-        <p style="color:gray; text-align:Center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+        <h4>Manejo de sesiones</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
       </div>
     </div>
   </section>
@@ -75,19 +77,22 @@
         <div class=" medium-3 methodology-step">
           <img src="{{ url_for('static', filename='imagenes/talking.png') }}" alt="Twitter">
           <h4> Establecer la idea </h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad.</p>
         </div>
 
         <div class=" medium-3 methodology-step">
           <img src="{{ url_for('static', filename='imagenes/board.png') }}" alt="Twitter">
           <h4> Metodologia de desarrollo </h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad.</p>
         </div>
 
         <div class="medium-3 methodology-step">
           <img src="{{ url_for('static', filename='imagenes/programming.png') }}" alt="Twitter">
           <h4> Desarrollo del proyecto </h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad.</p>
         </div>
       </div>
     </div>
@@ -128,7 +133,7 @@
   $(document).ready(function() {
     $('.technologies').slick({
       slidesToShow: 5,
-      arrows:false,
+      arrows: false,
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 3000,

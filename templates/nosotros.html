@@ -1,0 +1,46 @@
+{% extends 'plantillas/cuerpo.html'%}
+
+{%block head %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/nosotros.css') }}">
+{%endblock%}
+
+{%block cuerpo %}
+<div class=" grid-container nosotros ">
+  <section class="welcome">
+    <div class="banner-nosotros grid-x">
+      <div class="grid-y align-center medium-5 text-welcome">
+        <h1> somos un equipo hambriento por desafios. </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+          aute irure dolor in reprehenderit in voluptate </p>
+      </div>
+      <div class="grid-y align-center medium-7 welcome-image">
+        <img src="{{url_for('static', filename='imagenes/team.png')}}" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class=" about-container grid-x">
+      <div class="grid-y align-center medium-6">
+        <div class="about-us">
+          <h2> ¿Como comenzamos? </h2>
+          <div class="image-about-us">
+            <img width="250px" src="{{ url_for('static', filename='imagenes/comienzos.png') }}" alt="Comienzo">
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+        </div>
+
+      </div>
+      <div class=" grid-y align-center medium-6">
+        <div class="about-us">
+          <h2> ¿Que hacemos? </h2>
+          <div class="image-about-us">
+            <img width="250px" src="{{ url_for('static', filename='imagenes/hacemos.png') }}" alt="Actividades">
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+{%endblock%}

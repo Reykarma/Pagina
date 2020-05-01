@@ -52,6 +52,6 @@ text-align: center;
 #choice{
   margin-bottom: 30px;
 }
-.choice-test{
-  background-color: red;
+#image-choice{
+  width: 80%;
 }

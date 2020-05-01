@@ -1,5 +1,6 @@
-from flask import render_template
 from application import app
+from flask import render_template
+
 
 @app.route("/")
 def hello():
@@ -16,7 +17,3 @@ def contacto():
 @app.route("/web_design")
 def servicios():
     return render_template("web_design.html")
-
-@app.errorhandler(404)
-def page_not_found(e):
-    return "404"

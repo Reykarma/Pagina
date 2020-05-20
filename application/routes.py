@@ -14,6 +14,11 @@ def nosotros():
 def contacto():
     return render_template("contacto.html")
 
-@app.route("/web_design")
-def servicios():
+@app.route("/Desarrollo_web")
+def desarrollo_web():
     return render_template("web_design.html")
+
+@app.route("/Programacion")
+def programacion():
+    return render_template("programacion.html")
+

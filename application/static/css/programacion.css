@@ -1,0 +1,26 @@
+
+.text-service{
+    width: 100%;
+    text-align: justify;
+    border-radius: 5px;
+    color:#393939;
+  }
+  .title{
+    font-size: xxx-large;
+    color:#d9534f;
+    text-align:left;
+    margin-right:15px;
+    font-family: 'Nunito';
+  }
+  .text-service p{
+    padding: 15px;
+    margin-top: -35px;
+    font-family: 'Hind';
+    font-size: 19px;
+  }
+  .text-service span {
+    color:#d9534f;
+  }
+  .imagen-servicio{
+    border-radius: .5em;
+  }

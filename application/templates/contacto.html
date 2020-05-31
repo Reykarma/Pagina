@@ -7,31 +7,34 @@
 
 {%block cuerpo %}
 
-    <div class="grid-container align-center" style="display: flex;">
+    <div class="grid-container align-center" style="display: flex; padding-top: 45px;">
         <div class="grid-x align-center">
-            <div class="cell small-12 medium-6< box-form">
-                <div class="form-contact">
-                    <h1>Formulario de contacto</h1>
-                    <form action="">
-                        <label> Nombre<span class="required">*</span>
-                            <input class="fields" type="text" name="name" placeholder="Juan Peréz" required>
-                        </label>
-                        <label> E-mail de contacto<span class="required">*</span>
-                            <input class="fields" type="email" name="email" id="" placeholder="contacto@ejemplo.com" required>
-                        </label>
-                        <label> Asunto
-                            <input class="fields" type="text" name="subject" id="" placeholder="Contización de servicio">
-                        </label>
-                        <label> Mensaje<span class="required">*</span>
-                            <textarea name="content" required placeholder="Deseo recibir información de uno de sus servicios, en específico el desarrollo de aplicaciones móviles."></textarea>
-                        </label>
+            <div class="cell small-12 medium-6 box-form">
+                <div>
+                    <div class="form-contact">
+                        <h1>Formulario de contacto</h1>
+                        <form action="">
+                            <label> Nombre<span class="required">*</span>
+                                <input class="fields" type="text" name="name" placeholder="Juan Peréz" required>
+                            </label>
+                            <label> E-mail de contacto<span class="required">*</span>
+                                <input class="fields" type="email" name="email" id="" placeholder="contacto@ejemplo.com" required>
+                            </label>
+                            <label> Asunto
+                                <input class="fields" type="text" name="subject" id="" placeholder="Contización de servicio">
+                            </label>
+                            <label> Mensaje<span class="required">*</span>
+                                <textarea name="content" required placeholder="Deseo recibir información de uno de sus servicios, en específico el desarrollo de aplicaciones móviles."></textarea>
+                            </label>
 
-                        <input class="fields" type="submit" value="Enviar">
+                            <input class="fields" type="submit" value="Enviar">
 
-                    </form>
+                        </form>
+                    </div>
                 </div>
+
             </div>
-            <div class="cell medium-6 box-form grid-y ">
+            <div class="cell small-12 medium-6 box-form grid-x">
                 <div class="more-contact-forms">
                     <h1>Más formas de contacto</h1>
 
@@ -42,7 +45,7 @@
                         <p>Puerto Vallarta, Jal. MX.</p>
                     </div>
                 </div>
-                <div class="imagen" style="background:orange;">
+                <div class="imagen">
                   <img src="{{url_for('static', filename='imagenes/prueba3.png')}}" alt="">
                 </div>
             </div>

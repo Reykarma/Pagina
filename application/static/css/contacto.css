@@ -54,7 +54,7 @@ input[type=submit]:hover {
   padding: 15px;
 }
 .imagen{
-  width: 520px;
+  max-width: 520px;
 }
 
 .box-form:nth-child(1) {

@@ -13,8 +13,8 @@ body {
 }
 
 .page-height {
-  padding-top: 80px;
-  min-height: calc(100vh - 98px);
+  /* padding-top: 80px; */
+  min-height: calc(100vh - 168px);
 }
 
 .banner-height {
@@ -35,6 +35,24 @@ body {
 	width: 90%;
 	margin: 0 auto;
 } */
+
+.banner {
+  position: relative;
+}
+
+.banner::before {
+  content: '';
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  bottom: 15px;
+  left: -300px;
+  z-index: -1;
+  background-image: url('/static/imagenes/splash.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
 .image-banner {
   width: 100%;
 }
@@ -45,6 +63,10 @@ body {
   /* font-family: 'sans-serif', cursive; */
   font-family: 'Baloo Bhaina 2';
 }
+
+  .resaltar {
+    color: #2A4D97;
+  }
 
 .banner-text {
   font-size: 1.5em;
